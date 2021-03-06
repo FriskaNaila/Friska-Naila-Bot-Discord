@@ -7,5 +7,5 @@ module.exports = async client => {
 	];
 
 	let i = 0;
-	setInterval(() => client.user.setActivity(`/help | ${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 15000);
+	setInterval(() => client.user.setActivity(`/help | ${activities[i++ % activities.length]}`, { type: 'STREAMING' }), 15000);
 };
