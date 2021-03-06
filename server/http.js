@@ -4,7 +4,7 @@ const server = express();
 
 server.all('/', (req, res)=>{
 
-    res.send('Draconian is alive!');
+    res.send('Friska Naila is alive!');
 
 })
 
