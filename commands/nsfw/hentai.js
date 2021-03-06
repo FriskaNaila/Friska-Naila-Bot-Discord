@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
     .setColor("#ff9900")
     .setTitle(`Heres your Hentai Image`)
     .setImage(body.url) 
-    .setFooter(`© Draconian Workshop`);
+    .setFooter(`© Friska Naila`);
     message.channel.send({embed})
     }else {
     message.channel.send("This isn't NSFW channel!")
@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "hentai",
     description: "This command is used for calling NSFW images API to send them, but NSFW channel needed.",
-    usage: "d!hentai",
+    usage: "/hentai",
 		accessablechannel: "NSFW Channel",
     accessableby: "NSFW/Member",
     aliases: []

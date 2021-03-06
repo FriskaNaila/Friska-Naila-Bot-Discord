@@ -30,7 +30,7 @@ let embed1 = new Discord.MessageEmbed()
 module.exports.help = {
     name: "unban",
     description: "This command is used for unbanning someone",
-    usage: "d!unban <USER ID>",
+    usage: "/unban <USER ID>",
     accessableby: "Ban Members",
     aliases: []
 }

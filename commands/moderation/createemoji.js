@@ -39,7 +39,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
 	name: "createemoji",
 	description: "Create emoji easily with commands",
-	usage: "d!createemoji <name> <attachments>",
+	usage: "/createemoji <name> <attachments>",
 	accessableby: "Manage Emojis",
 	aliases: []
 } 

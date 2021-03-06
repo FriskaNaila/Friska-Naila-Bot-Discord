@@ -90,7 +90,7 @@ module.exports.run = async (client, msg, args) => {
 module.exports.help = {
     name: "kick",
     description: "This command is used for kicking people u hates or againsting your server rules.",
-    usage: "d!kick <mentions> <reason>",
+    usage: "/kick <mentions> <reason>",
     accessableby: "Kick Members",
     aliases: []
 }

@@ -119,7 +119,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
 	name: 'mute',
 	description: 'This command is used for muting some people really annoying.',
-	usage: 'd!mute <mention> <duration> <reason>',
+	usage: '/mute <mention> <duration> <reason>',
 	accessableby: 'Manage Roles',
 	aliases: []
 };

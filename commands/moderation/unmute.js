@@ -50,7 +50,7 @@ let embed7 = new Discord.MessageEmbed()
 module.exports.help = {
     name: "unmute",
     description: "This command is used for unmuting someone",
-    usage: "d!unmute <mention>",
+    usage: "/unmute <mention>",
     accessableby: "Manage Roles",
     aliases: []
 }

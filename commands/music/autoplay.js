@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "autoplay",
     description: "This command is used for enabling or disabling autoplay features for music system.",
-    usage: "d!autoplay",
+    usage: "/autoplay",
     accessableby: "Member",
     aliases: []
 }

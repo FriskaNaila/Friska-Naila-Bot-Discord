@@ -10,7 +10,7 @@ module.exports.run = (client, msg, args) => {
                     .setImage(response.body.message)
                     .setColor("#00ff00")
                     .setTitle("Anal here")
-                    .setFooter(`©2020 Draconian Workshop | This command requested by ${msg.author.username}#${msg.author.discriminator}`)
+                    .setFooter(`©2021 Friska Naila| This command requested by ${msg.author.username}#${msg.author.discriminator}`)
                               
                    msg.channel.send(emb)  
     });
@@ -22,7 +22,7 @@ module.exports.run = (client, msg, args) => {
 module.exports.help = {
     name: "anal",
     description: "This command is used for calling NSFW images API to send them, but NSFW channel needed.",
-    usage: "d!anal",
+    usage: "/anal",
 		accessablechannel: "NSFW Channel",
     accessableby: "NSFW/Member",
     aliases: []
