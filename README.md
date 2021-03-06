@@ -1,4 +1,3 @@
-[點擊這裏](https://github.com/RealKoolisw/DraconianJSBot/blob/main/assets/README-cn.md)閱讀 Discord 機器人中文教程 :)
 
 ## Our Bot Features:
 
@@ -36,11 +35,11 @@ You can see those command examples and screenshots [here](https://github.com/Rea
 
 ## Issue/Suggestions
 
-If met any issues, go [here](https://github.com/RealKoolisw/Draconian/issues) to report bug and create new issue for supporting
+If met any
 
 ## Github Repository
 
-Draconian Made by Koolisw, project [Here](https://github.com/RealKoolisw/Draconian)
+Draconian Made by Koolisw, proje
 
 ## Self-Hosting & Development
 
