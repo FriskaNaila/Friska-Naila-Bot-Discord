@@ -59,7 +59,7 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
     name: "clearwarn",
     description: "Clear the warnings",
-    usage: "d!clearwarn <mention>",
+    usage: "/clearwarn <mention>",
     accessableby: "Manage Roles",
     aliases: []
 }    
