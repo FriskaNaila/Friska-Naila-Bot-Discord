@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
                     .setImage(body)
                     .setColor("#00ff00")
                     .setTitle("Your random cat here")
-                    .setFooter(`©2020 Draconian Workshop | This command requested by ${message.author.username}#${message.author.discriminator}`)
+                    .setFooter(`This command requested by ${message.author.username}#${message.author.discriminator}`)
                               
                    message.channel.send(emb)  
             }

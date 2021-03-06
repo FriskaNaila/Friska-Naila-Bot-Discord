@@ -12,7 +12,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "send-image",
     description: "This command is used for resending the images.",
-    usage: "d!send-image <attachments>",
+    usage: "/send-image <attachments>",
     accessableby: "Member",
     aliases: []
 }
