@@ -1,9 +1,8 @@
-
 ## Our Bot Features:
 
 Draconian Discord Bot offers:
 
-- :battery: 24/7 Full Uptime with high stability
+- 🔋 24/7 Full Uptime with high stability
 - :smiley: Easy to use
 - ⚙ Per-Server Settings
 - :+1: Fast command responses
@@ -29,18 +28,6 @@ We have more than 80 commands in this bot, and they are **featured** and having 
 - :lock: **Moderation:** `ban`, `kick`, `warn`, `mute`, `createchannel`, `createemoji`, and **9 more!**
 - :electric_plug: **Utility:** `weather`, `aes256`, `embed`, `enlarge`, and **4 more!**
 
-## Screenshots and Examples
-
-You can see those command examples and screenshots [here](https://github.com/RealKoolisw/DraconianJSBot/tree/main/assets)
-
-## Issue/Suggestions
-
-If met any
-
-## Github Repository
-
-Draconian Made by Koolisw, proje
-
 ## Self-Hosting & Development
 
 Requirement:
@@ -60,3 +47,4 @@ Reminders:
 4. Edit/create the file `.env` (or your hoster's provided environment secret) and insert your bot token in `TOKEN` value.
 5. Start the bot from the project folder: `node shard.js`
 6. Open `http://localhost:8080/` or your project URL to view the http output.
+r your project URL to view the http output.
