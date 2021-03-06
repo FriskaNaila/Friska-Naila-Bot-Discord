@@ -27,7 +27,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "poke",
     description: "This command is used for poke someone",
-    usage: "d!poke <mention>",
+    usage: "/poke <mention>",
     accessableby: "Members",
     aliases: []
 }

@@ -25,7 +25,7 @@ module.exports.run = (client, message, _args) => {
 module.exports.help = {
     name: "meme",
     description: "This command is used for generating some cool memes.",
-    usage: "d!meme",
+    usage: "/meme",
     accessableby: "Member",
     aliases: []
 }

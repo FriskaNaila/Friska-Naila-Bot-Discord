@@ -10,14 +10,14 @@ module.exports.run = async (client, message, args) => {
     .setColor("#ff9900")
     .setTitle(`OwO, Heres your Neko Gif`)
     .setImage(body.url) 
-    .setFooter(`© Draconian Workshop`);
+    .setFooter(`© Friska Naila`);
     message.channel.send({embed})
 };
 
 module.exports.help = {
     name: "ngif",
     description: "This command is used for generating ngif.",
-    usage: "d!ngif",
+    usage: "/ngif",
     accessableby: "Members",
     aliases: []
 }
