@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
 	let tomute = message.mentions.users.first();
 	let notice3 = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> **I don't have permission to mute people!**`
+			`**I don't have permission to mute people!**`
 		)
 		.setColor('RED');
 	if (!message.guild.member(client.user).hasPermission('MANAGE_ROLES'))
@@ -29,7 +29,7 @@ module.exports.run = async (client, message, args) => {
 	if (!tomute) return message.channel.send(embed50);
 	let notice2 = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> **You cannot mute yourself!**`
+			`**You cannot mute yourself!**`
 		)
 		.setColor('RED');
 	if (message.mentions.users.first().id === message.author.id)
@@ -37,12 +37,12 @@ module.exports.run = async (client, message, args) => {
 
 	let dsfdsfsdf = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to you!**`
+			`Access Denied, **that member has roles higher or equal to you!**`
 		)
 		.setColor('RED');
 	let sdfsdfsdfsd = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to me!**`
+			`Access Denied, **that member has roles higher or equal to me!**`
 		)
 		.setColor('RED');
 	let botRolePossition = message.guild.member(client.user).roles.highest

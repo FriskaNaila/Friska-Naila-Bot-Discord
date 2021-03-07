@@ -3,7 +3,7 @@ module.exports.run = async (client, message, args) => {
 
 	let notice3 = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> **I don't have permission to create emoji!**`
+			`**I don't have permission to create emoji!**`
 		)
 		.setColor("RED");
 	if (!message.guild.member(client.user).hasPermission("MANAGE_EMOJIS"))

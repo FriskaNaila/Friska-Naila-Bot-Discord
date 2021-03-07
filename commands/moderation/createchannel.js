@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
 
 	let notice3 = new Discord.MessageEmbed()
 		.setDescription(
-			`<:cross1:747728200691482746> **I don't have permission to manage channel!**`
+			`**I don't have permission to manage channel!**`
 		)
 		.setColor("RED");
 	if (!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS"))

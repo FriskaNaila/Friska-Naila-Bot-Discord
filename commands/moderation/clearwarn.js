@@ -5,7 +5,7 @@ const ms = require("ms");
 module.exports.run = (client, message, args) => {
     let notice1 = new Discord.MessageEmbed()
     .setDescription(
-      `<:cross1:747728200691482746> **${message.author.username}, Missing Permission**`
+      `**${message.author.username}, Missing Permission**`
     )
     .setColor("RED");
   let notice3 = new Discord.MessageEmbed()
