@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
 				"**🎃Fun**",
 				"`8ball`, `cat`, `deaes256`, `kiss`, `meme`, `ngif`, `pat`, `poke`, `smug`, `spank`, `thigh`, `tickle`"
 			)
-			.addField("**:tada:Giveaways**", "`gstart`reroll`, `gend`")
+			.addField("**:tada:Giveaways**", "`gstart` ,`reroll`, `gend`")
 			.addField("**:frame_photo:Image**", "`circle`, `delete`, `gay`, `changemymind`, `trigger`, `clyde`")
 			.addField("**:musical_note:Music**", "`play`, `stop`, `skip`, `queue`, `autoplay`, `loop`, `volume`, `pause`, `resume`")
 			.addField(
