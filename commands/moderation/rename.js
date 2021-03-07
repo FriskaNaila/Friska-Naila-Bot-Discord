@@ -18,11 +18,11 @@ exports.run = (client, message, args) => {
       user.setNickname(newname)
   } catch(e) {
       let embed = new Discord.MessageEmbed()
-            .setDescription("<:cross1:747728200691482746> **Failed to set user's nickname!**")
+            .setDescription("**Failed to set user's nickname!**")
       message.channel.send(embed3)
   }
     let embed = new Discord.MessageEmbed()
-            .setDescription("<:tick:702386031361523723> **Nickname has been set!**")
+            .setDescription("**Nickname has been set!**")
   message.channel.send(embed);
 };
 
