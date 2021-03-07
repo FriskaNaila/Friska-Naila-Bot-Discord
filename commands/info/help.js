@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
 			.setDescription(
 				"**prefix** `/`\nMore Info please visit: [Here](https://discord.com/oauth2/authorize?client_id=779628592052305942&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FsVZyzB5Da8&response_type=code&scope=bot%20guilds.join) and invite me to your server.\n**Important reminder:** Follows to Discord official Terms of Service, we will no longer saving your data for a long term, if your server keep not using our bot for **2** months, we will delete all data from our bot databases, all data will be kept in default. **If wanted to delete all data from your server in our bot database**, just kick the bot and it will be removed automaticly\n\nTo get more info about a command send d!!help <command name>\n\`\`\`/help kick\`\`\`"
 			)
-			.addField("**📱Basic**", "`help`, `ping`, `vote`, `uptime`")
+			.addField("**📱Basic**", "`help`, `ping`, 'uptime`")
 			.addField(
 				"**⚙utility**",
 				"`aes256`, `avatar`, `channel`, `embed`, `roleinfo`, `reverse`, `setafk`, `snipe`, `stats`, `timer`, `translate`, `whois`, `weather`, `youtube`"
@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
 				"**🎃Fun**",
 				"`8ball`, `cat`, `deaes256`, `kiss`, `meme`, `ngif`, `pat`, `poke`, `smug`, `spank`, `thigh`, `tickle`"
 			)
-			.addField("**:tada:Giveaways**", "`start-giveaway`, `reroll`, `end-giveaway`")
+			.addField("**:tada:Giveaways**", "`gstart`reroll`, `gend`")
 			.addField("**:frame_photo:Image**", "`circle`, `delete`, `gay`, `changemymind`, `trigger`, `clyde`")
 			.addField("**:musical_note:Music**", "`play`, `stop`, `skip`, `queue`, `autoplay`, `loop`, `volume`, `pause`, `resume`")
 			.addField(

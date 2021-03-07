@@ -33,7 +33,7 @@ module.exports.run = async (client, msg, args) => {
     return msg.channel.send(kntlembed).then(msg => msg.delete({ timeout: 10000 }));
   }
   let notice2 = new Discord.MessageEmbed()
-    .setDescription(`<:cross1:747728200691482746> **You cannot ban yourself!**`)
+    .setDescription(`You cannot ban yourself!**`)
     .setColor("RED");
   if (msg.mentions.users.first().id === msg.author.id) return msg.channel.send(notice2).then(msg => msg.delete({ timeout: 10000 }));
   let dsfdsfsdf = new Discord.MessageEmbed()
@@ -54,7 +54,7 @@ module.exports.run = async (client, msg, args) => {
 
 
   let sdfdfsdfsdfdfs = new Discord.MessageEmbed()
-    .setDescription(`<:cross1:747728200691482746> **An error occurred with banned that member!**`)
+    .setDescription(`❌error occurred with banned that member!**`)
     .setColor("RED");
 
   if (reason.length < 1) reason = "No reason given.";
