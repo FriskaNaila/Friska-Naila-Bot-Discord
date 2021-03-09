@@ -38,7 +38,7 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
 	name: "embed",
 	description: "This command is used for embedding stuff in discord",
-	usage: "/embed <title> <desc>",
+	usage: "d!embed <title> <desc>",
 	accessableby: "Member",
 	aliases: []
 } 

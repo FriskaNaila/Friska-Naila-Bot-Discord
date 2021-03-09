@@ -10,7 +10,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "volume",
     description: "This command is used for changing volume when playing the songs",
-    usage: "/volume <value>",
+    usage: "d!volume <value>",
     accessableby: "Member",
     aliases: []
 }

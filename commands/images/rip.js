@@ -15,7 +15,7 @@ let avatar = target.displayAvatarURL({dynamic: false, format: "png"});
 module.exports.help = {
     name: "rip",
     description: "This command is used for generating people IN RiP.",
-    usage: "/rip <mentions>",
+    usage: "d!rip <mentions>",
     accessableby: "Member",
     aliases: []
 }

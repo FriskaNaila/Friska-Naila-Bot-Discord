@@ -5,7 +5,7 @@ const ms = require("ms");
 module.exports.run = (client, message, args) => {
     let notice1 = new Discord.MessageEmbed()
     .setDescription(
-      `**${message.author.username}, Missing Permission**`
+      `<:cross1:747728200691482746> **${message.author.username}, Missing Permission**`
     )
     .setColor("RED");
   let notice3 = new Discord.MessageEmbed()
@@ -59,7 +59,7 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
     name: "clearwarn",
     description: "Clear the warnings",
-    usage: "/clearwarn <mention>",
+    usage: "d!clearwarn <mention>",
     accessableby: "Manage Roles",
     aliases: []
 }    

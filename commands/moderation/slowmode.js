@@ -3,22 +3,22 @@ const Discord = require("discord.js");
 exports.run = (client, message, args) => {
   let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `**Failed to set slowmode in this channel, check your slowmode number!**`
+      `<:cross1:747728200691482746> **Failed to set slowmode in this channel, check your slowmode number!**`
     )
     .setColor("RED");
   let notice1 = new Discord.MessageEmbed()
     .setDescription(
-      `**Failed to set slowmode in this channel, please enter a valid number!**`
+      `<:cross1:747728200691482746> **Failed to set slowmode in this channel, please enter a valid number!**`
     )
     .setColor("RED");
   let noticwsse1 = new Discord.MessageEmbed()
     .setDescription(
-      `**Failed to set slowmode in this channel, you can only type in 0 - 21600 second!**`
+      `<:cross1:747728200691482746> **Failed to set slowmode in this channel, you can only type in 0 - 21600 second!**`
     )
     .setColor("RED");
   let notice22 = new Discord.MessageEmbed()
     .setDescription(
-      `**I don't have permission to change channel slowmode!**`
+      `<:cross1:747728200691482746> **I don't have permission to change channel slowmode!**`
     )
     .setColor("RED");
   if (!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS"))
@@ -45,7 +45,7 @@ exports.run = (client, message, args) => {
   });
   let bsuembed = new Discord.MessageEmbed()
     .setDescription(
-      `Set channel's slowmode to **${duration}s** `
+      `<:tick:702386031361523723> Set channel's slowmode to **${duration}s** `
     )
     .setColor("GREEN");
 
@@ -55,7 +55,7 @@ exports.run = (client, message, args) => {
 module.exports.help = {
     name: "slowmode",
     description: "This command is used for changing the slowmode as settings page cannot.",
-    usage: "/slowmode <1-21600>",
+    usage: "d!slowmode <1-21600>",
     accessableby: "Manage Channels",
     aliases: []
 }

@@ -12,14 +12,14 @@ module.exports.run = async (client, message, args) => {
     .setColor("#ff9900")
     .setTitle(`${message.mentions.users.first().username}, you got tickled by ${message.author.username}`)
     .setImage(body.url) 
-    .setFooter(`Friska Naila`);
+    .setFooter(`© Draconian Workshop`);
     message.channel.send({embed})
 };
 
 module.exports.help = {
     name: "tickle",
     description: "This command is used for generating tickle image.",
-    usage: "/tickle <mention>",
+    usage: "d!tickle <mention>",
     accessableby: "Member",
     aliases: []
 }
