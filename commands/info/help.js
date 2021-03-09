@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
 			)
 			.addField(
 				"**🎃Fun**",
-				"`8ball`, `cat`, `deaes256`, `kiss`, `meme`, `ngif`, `pat`,`say`, `poke`, `smug`, `spank`, `thigh`, `tickle`"
+				"`8ball`, `cat`, `deaes256`, `kiss`, `meme`, `ngif`, `pat`, `say`, `poke`, `smug`, `spank`, `thigh`, `tickle`"
 			)
 			.addField("**:tada:Giveaways**", "`gstart` ,`reroll`, `gend`")
 			.addField("**:frame_photo:Image**", "`circle`, `delete`, `gay`, `changemymind`, `trigger`, `clyde`")
