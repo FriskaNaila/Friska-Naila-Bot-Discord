@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "queue",
     description: "This command is used for fetching queue from music system.",
-    usage: "d!queue",
+    usage: "/queue",
     accessableby: "Members",
     aliases: []
 }
