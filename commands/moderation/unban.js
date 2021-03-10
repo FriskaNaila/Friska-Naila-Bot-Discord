@@ -14,7 +14,7 @@ let embed1 = new Discord.MessageEmbed()
   .setColor('RED')
   
   let EMDDD = new Discord.MessageEmbed()
-  .setDescription(`**Unbanned** ${user.id}`)
+  .setDescription(`<:tick:702386031361523723> **Unbanned** ${user.id}`)
   .setColor('#FFFF00')
   
     let userID = args[0]
@@ -30,7 +30,7 @@ let embed1 = new Discord.MessageEmbed()
 module.exports.help = {
     name: "unban",
     description: "This command is used for unbanning someone",
-    usage: "/unban <USER ID>",
+    usage: "d!unban <USER ID>",
     accessableby: "Ban Members",
     aliases: []
 }

@@ -6,12 +6,12 @@ const ms = require('ms');
 module.exports.run = (client, message, args) => {
     let dfgrdgdfgdf = new Discord.MessageEmbed()
     .setDescription(
-      `**Lockdown lifted**`
+      `<:tick:702386031361523723> **Lockdown lifted**`
     )
     .setColor("GREEN");
     let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `**I don't have permission to manage channel!**`
+      `<:cross1:747728200691482746> **I don't have permission to manage channel!**`
     )
     .setColor("RED");
   if (!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS"))
@@ -28,7 +28,7 @@ module.exports.run = (client, message, args) => {
     return message.channel.send(mmqembed).then(msg => msg.delete({timeout: 5000}));
      let ddd = new Discord.MessageEmbed()
     .setDescription(
-      `**You must set a duration for the lockdown in either hours, minutes or seconds**`
+      `<:cross1:747728200691482746> **You must set a duration for the lockdown in either hours, minutes or seconds**`
     )
     .setColor("RED");
   if (!time) return message.channel.send(ddd);
@@ -49,7 +49,7 @@ module.exports.run = (client, message, args) => {
     }).then(() => {
         let bsuembed = new Discord.MessageEmbed()
     .setDescription(
-      `Locked the channel down for **${ms(ms(time), { long:true })}**`
+      `<:tick:702386031361523723> Locked the channel down for **${ms(ms(time), { long:true })}**`
     )
     .setColor("GREEN");
         
@@ -74,7 +74,7 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
     name: "lockchannel",
     description: "This command is used for locking the channels.",
-    usage: "/lockchannel <duration>",
+    usage: "d!lockchannel <duration>",
     accessableby: "Manage Channels",
     aliases: []
 }

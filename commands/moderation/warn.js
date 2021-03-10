@@ -9,12 +9,12 @@ module.exports.run = async (client, message, args) => {
 
   let notice1 = new Discord.MessageEmbed()
     .setDescription(
-      `**${message.author.username}, Missing Permission**`
+      `<:cross1:747728200691482746> **${message.author.username}, Missing Permission**`
     )
     .setColor("RED");
   let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `**I don't have permission to warn people!**`
+      `<:cross1:747728200691482746> **I don't have permission to warn people!**`
     )
     .setColor("RED");
   if (!message.guild.member(client.user).hasPermission(['MANAGE_ROLES', 'KICK_MEMBERS', 'BAN_MEMBERS']))
@@ -26,7 +26,7 @@ module.exports.run = async (client, message, args) => {
       .reply("You must mention someone to warn them.")
       .catch(console.error);
   let notice2 = new Discord.MessageEmbed()
-    .setDescription(`**You cannot warn yourself**`)
+    .setDescription(`<:cross1:747728200691482746> **You cannot warn yourself**`)
     .setColor("RED");
   if (message.mentions.users.first().id === message.author.id)
     return message.channel.send(notice2).then(m => m.delete({timeout: 15000}));
@@ -36,12 +36,12 @@ module.exports.run = async (client, message, args) => {
 
   let dsfdsfsdf = new Discord.MessageEmbed()
     .setDescription(
-      `Access Denied, **that member has roles higher or equal to you!**`
+      `<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to you!**`
     )
     .setColor("RED");
   let sdfsdfsdfsd = new Discord.MessageEmbed()
     .setDescription(
-      `Access Denied, **that member has roles higher or equal to me!**`
+      `<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to me!**`
     )
     .setColor("RED");
   let botRolePossition = message.guild.member(client.user).roles.highest.position;
@@ -78,12 +78,12 @@ module.exports.run = async (client, message, args) => {
   
   let test1 = new Discord.MessageEmbed()
     .setDescription(
-      `**Muted <@${user.id}> For 1 Hour** | **Reached Two Warnings**`
+      `<:tick:702386031361523723> **Muted <@${user.id}> For 1 Hour** | **Reached Two Warnings**`
     )
     .setColor("GREEN");
   let bsuembed = new Discord.MessageEmbed()
     .setDescription(
-      `**Warned ${user.username}#${user.discriminator}** | **${reason}**`
+      `<:tick:702386031361523723> **Warned ${user.username}#${user.discriminator}** | **${reason}**`
     )
     .setColor("GREEN");
   message.delete();
@@ -100,12 +100,12 @@ module.exports.run = async (client, message, args) => {
 
   let test2 = new Discord.MessageEmbed()
     .setDescription(
-      `**Kicked ${user.username}#${user.discriminator}** | **Reached Warnings 3**`
+      `<:tick:702386031361523723> **Kicked ${user.username}#${user.discriminator}** | **Reached Warnings 3**`
     )
     .setColor("GREEN");
   let test3 = new Discord.MessageEmbed()
     .setDescription(
-      `**Banned ${user.username}#${user.discriminator}** | **Reached 5 Warnings**`
+      `<:tick:702386031361523723> **Banned ${user.username}#${user.discriminator}** | **Reached 5 Warnings**`
     )
     .setColor("GREEN");
 
@@ -137,7 +137,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "warn",
     description: "Warn someone u hates/againsting rules, 2 warn for muting, 3 warns for kicking, 5 warns for banning",
-    usage: "/warn <mention> <reason>",
+    usage: "d!warn <mention> <reason>",
     accessableby: "Member",
     aliases: []
 }

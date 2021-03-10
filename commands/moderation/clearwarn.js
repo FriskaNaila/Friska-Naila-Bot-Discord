@@ -5,19 +5,19 @@ const ms = require("ms");
 module.exports.run = (client, message, args) => {
     let notice1 = new Discord.MessageEmbed()
     .setDescription(
-      `**${message.author.username}, Missing Permission**`
+      `<:cross1:747728200691482746> **${message.author.username}, Missing Permission**`
     )
     .setColor("RED");
   let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `**I don't have permission to warn people!**`
+      `<:cross1:747728200691482746> **I don't have permission to warn people!**`
     )
     .setColor("RED");
     let noticEEEe2 = new Discord.MessageEmbed()
-    .setDescription(`**You must mention someone to clear their warns**`)
+    .setDescription(`<:cross1:747728200691482746> **You must mention someone to clear their warns**`)
     .setColor("RED");
     let noticEEREe2 = new Discord.MessageEmbed()
-    .setDescription(`**Couldn't find that user**`)
+    .setDescription(`<:cross1:747728200691482746> **Couldn't find that user**`)
     .setColor("RED");
   if (!message.guild.member(client.user).hasPermission("MANAGE_ROLES"))
     return message.channel.send(notice3).then(m => m.delete({timeout: 15000}));
@@ -59,7 +59,7 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
     name: "clearwarn",
     description: "Clear the warnings",
-    usage: "/clearwarn <mention>",
+    usage: "d!clearwarn <mention>",
     accessableby: "Manage Roles",
     aliases: []
 }    

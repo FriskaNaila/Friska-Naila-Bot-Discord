@@ -22,7 +22,7 @@ module.exports.run = (client, msg, args) => {
 module.exports.help = {
     name: "4knsfw",
     description: "This command is used for generating some 4knsfw images.",
-    usage: "/4knsfw",
+    usage: "d!4knsfw",
     accessableby: "NSFW/Member",
 		    aliases: []
 }

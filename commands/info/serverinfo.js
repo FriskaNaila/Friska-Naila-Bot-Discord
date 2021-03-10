@@ -54,7 +54,7 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
     name: "serverinfo",
     description: "This command is used for checking the server info.",
-    usage: "/serverinfo",
+    usage: "d!serverinfo",
     accessableby: "Member",
     aliases: []
 }

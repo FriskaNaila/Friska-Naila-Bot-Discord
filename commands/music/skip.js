@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "skip",
     description: "This command is used for skiping songs.",
-    usage: "/skip",
+    usage: "d!skip",
     accessableby: "Manage Server",
     aliases: []
 }

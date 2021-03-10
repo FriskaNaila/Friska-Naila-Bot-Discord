@@ -3,12 +3,12 @@ const Discord = require("discord.js");
 exports.run = (client, message, args) => {
     let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `**I don't have permission to manage channel!**`
+      `<:cross1:747728200691482746> **I don't have permission to manage channel!**`
     )
     .setColor("RED");
     let dfgrdgdfgdf = new Discord.MessageEmbed()
     .setDescription(
-      `**Lockdown lifted**`
+      `<:tick:702386031361523723> **Lockdown lifted**`
     )
     .setColor("GREEN");
   
@@ -38,7 +38,7 @@ exports.run = (client, message, args) => {
 module.exports.help = {
     name: "unlockchannel",
     description: "This command is used for unlockchanneling",
-    usage: "/unlockchannel",
+    usage: "d!unlockchannel",
     accessableby: "Manage Channels",
     aliases: []
 }

@@ -23,7 +23,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "kiss",
     description: "This command is used for kiss someone u loVe.",
-    usage: "/kiss <mentions>",
+    usage: "d!kiss <mentions>",
     accessableby: "Member",
     aliases: []
 }

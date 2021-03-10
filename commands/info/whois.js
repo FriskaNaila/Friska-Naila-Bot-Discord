@@ -44,7 +44,7 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: "whois",
     description: "Check who is him/her",
-    usage: "/whois <mention or keep blank>",
+    usage: "d!whois <mention or keep blank>",
     accessableby: "Members",
     aliases: []
 }

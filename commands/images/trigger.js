@@ -28,7 +28,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "trigger",
     description: "This command is used for generating trigger image",
-    usage: "/trigger <mention or attachment>",
+    usage: "d!trigger <mention or attachment>",
     accessableby: "Member",
     aliases: []
 }

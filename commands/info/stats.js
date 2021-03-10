@@ -30,7 +30,7 @@ module.exports.run = async (client, message) => {
           .addField("Uptime Percentage", `${numberas}%`)
           .addField("Ping", Math.round(client.ws.ping) + "ms", true)
           .addField("Uptime", days + "d " + hours + "h " + minutes + "m " + seconds + "." + milliseconds + "s", true)
-          .setFooter('Friska Naila 2021');
+          .setFooter('Draconian 2021', 'https://cdn.koolisw.tk/file/kooliswCDN/79654c28218d88a8cfefe9c01f6d338c.png');
         return message.channel.send({ embed });
       })
 
@@ -40,7 +40,7 @@ module.exports.run = async (client, message) => {
 module.exports.help = {
     name: "stats",
     description: "This command is used for monitoring stats of bot.",
-    usage: "/stats",
+    usage: "d!stats",
     accessableby: "Member",
     aliases: []
 }

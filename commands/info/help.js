@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
 			.setTitle("DraconianBot Help & Commands list")
 			.setColor("GREEN")
 			.setDescription(
-				"**prefix** `/`\nMore Info please visit: [Here](https://discord.com/api/oauth2/authorize?client_id=779628592052305942&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FsVZyzB5Da8&response_type=code&scope=guilds.join%20bot) and invite me to your server.\n**Important reminder:** Follows to Discord official Terms of Service, we will no longer saving your data for a long term, if your server keep not using our bot for **2** months, we will delete all data from our bot databases, all data will be kept in default. **If wanted to delete all data from your server in our bot database**, just kick the bot and it will be removed automaticly\n\nTo get more info about a command send d!!help <command name>\n\`\`\`d!help kick\`\`\`"
+				"**prefix** `d!`\nMore Info please visit: [Here](https://top.gg/bot/711937599975063584) and invite me to your server.\n**Important reminder:** Follows to Discord official Terms of Service, we will no longer saving your data for a long term, if your server keep not using our bot for **2** months, we will delete all data from our bot databases, all data will be kept in default. **If wanted to delete all data from your server in our bot database**, just kick the bot and it will be removed automaticly\n\nTo get more info about a command send d!!help <command name>\n\`\`\`d!help kick\`\`\`"
 			)
 			.addField("**📱Basic**", "`help`, `ping`, `vote`, `uptime`")
 			.addField(
@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
 			.addField("**:underage:NSFW**", "`4knsfw`, `anal`, `ass`, `hentai`, `holo`, `pussy`, `porn`, `spank`, `urban`")
 			.addField("**:gear:Custom Function**", "`setprefix`")
 			.setFooter(
-				`This command requested by ${message.author.username}#${message.author.discriminator}`
+				`©2021 Draconian Workshop | This command requested by ${message.author.username}#${message.author.discriminator}`
 			)
 		message.channel.send({ embed });
 	}
@@ -51,7 +51,7 @@ module.exports.run = async (bot, message, args) => {
             **Description:**\n\`\`\`${command.help.description || "There is no Description for this command."}\`\`\`\n**Usage:**\n\`\`\`${command.help.usage || "No Usage"}\`\`\`\n**Permissions:**\n\`\`\`${command.help.accessableby || "Members"}\`\`\`\n**Aliases:**\n\`\`\`${alia}\`\`\``)
 				.setColor('#4a4b4d')
 				.setFooter(
-				`This command requested by ${message.author.username}#${message.author.discriminator}`
+				`©2021 Draconian Workshop | This command requested by ${message.author.username}#${message.author.discriminator}`
 			)
 
 			message.channel.send(embed);
@@ -72,7 +72,7 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
 	name: "help",
 	description: "This command is used for displaying all commands.",
-	usage: "/help",
+	usage: "d!help",
 	accessableby: "Members",
 	aliases: []
 }
