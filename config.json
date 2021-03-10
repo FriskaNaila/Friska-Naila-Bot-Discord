@@ -1,8 +1,14 @@
 {
-
-    "OWNER_ID":"661501985517862972",
-    "BOT_TOKEN":"",
-    "tenorAPI":"ZEEELJXAFQBN",
-    "DEFAULT_PREFIX":"=",
-    "mongoPass": "",
+    "prefix": "d!",
+    "ownerID": "OWNER_ID",
+    "everyoneMention": false,
+    "hostedBy": true,
+    "emoji": {
+        "play": "▶️",
+        "stop": "⏹️",
+        "queue": "📄",
+        "success": "☑️",
+        "repeat": "🔁",
+        "error": "❌"
+    }
 }
