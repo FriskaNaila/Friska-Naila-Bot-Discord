@@ -13,14 +13,14 @@ module.exports.run = async (client, message, args) => {
     .setColor("#ff9900")
     .setTitle(`${message.mentions.users.first().username}, you got spanked in da butt by ${message.author.username} >:3`)
     .setImage(body.url) 
-    .setFooter(`© Draconian Workshop`);
+    .setFooter(`© Friska Naila`);
     message.channel.send({embed})
 };
 
 module.exports.help = {
     name: "spank",
     description: "This command is used for generating spank images.",
-    usage: "d!spank <mentions>",
+    usage: "/spank <mentions>",
     accessableby: "Member",
     aliases: []
 }

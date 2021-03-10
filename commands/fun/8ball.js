@@ -22,7 +22,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "8ball",
     description: "This command is used for asking the bot what he wanted to answer as 8ball.",
-    usage: "d!8ball <questions>",
+    usage: "/8ball <questions>",
     accessableby: "Member",
 		    aliases: []
 }

@@ -20,14 +20,14 @@ module.exports.run = async (client, message, args) => {
     .setColor("#ff9900")
     .setTitle(`${message.mentions.users.first().username}, you got poked by ${message.author.username}`)
     .setImage(body.url) 
-    .setFooter(`© Draconian Workshop`);
+    .setFooter(`© Friska Naila`);
     message.channel.send({embed})
 };
 
 module.exports.help = {
     name: "poke",
     description: "This command is used for poke someone",
-    usage: "d!poke <mention>",
+    usage: "/poke <mention>",
     accessableby: "Members",
     aliases: []
 }

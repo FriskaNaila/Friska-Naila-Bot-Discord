@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
                     .setImage(body)
                     .setColor("#00ff00")
                     .setTitle("Your random cat here")
-                    .setFooter(`©2020 Draconian Workshop | This command requested by ${message.author.username}#${message.author.discriminator}`)
+                    .setFooter(`©2021 Friska Naila  | This command requested by ${message.author.username}#${message.author.discriminator}`)
                               
                    message.channel.send(emb)  
             }
@@ -18,7 +18,7 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: "cat",
     description: "This command is used for posting cat's images randomly.",
-    usage: "d!cat",
+    usage: "/cat",
     accessableby: "Members",
     aliases: []
 }
