@@ -23,7 +23,7 @@ module.exports.run = async (client, message, args) => { // eslint-disable-line n
 module.exports.help = {
     name: "pat",
     description: "This command is used for generating pat.",
-    usage: "d!pat <mentions>",
+    usage: "/pat <mentions>",
     accessableby: "Members",
     aliases: []
 }

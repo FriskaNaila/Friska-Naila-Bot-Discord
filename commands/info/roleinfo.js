@@ -32,7 +32,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "roleinfo",
     description: "This command is used for generating people IN RiP.",
-    usage: "d!roleinfo <roles-ID>",
+    usage: "/roleinfo <roles-ID>",
     accessableby: "Member",
     aliases: []
 }
