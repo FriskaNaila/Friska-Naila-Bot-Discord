@@ -1,26 +1,10 @@
-<p align="center">
-    <img src="https://cdn.koolisw.tk/file/kooliswCDN/F996F49F-5771-452D-9FA4-2E6713D2E138.png" height="200">
-</p>
-<p align="center">
-<img src="https://img.shields.io/uptimerobot/ratio/m787007739-f881254df38f1a06bbd53346?style=flat-square"
-            alt="Uptime">
-    <img alt="Discord" src="https://img.shields.io/discord/687219262406131714?label=Discord">
-    <a href="https://top.gg/bot/711937599975063584">
-    <img src="https://top.gg/api/widget/status/711937599975063584.svg" alt="Draconian" />
-</a>
-    <a href="https://top.gg/bot/711937599975063584">
-    <img src="https://top.gg/api/widget/servers/711937599975063584.svg" alt="Draconian" />
-</a>
-    </p>
-
-# Draconian Discord Bot
+# Friska Naila Discord Bot
 
 Draconian Discord bot is an epic multi-purpose bot, which is very powerful and contains rich functions below.\
-Please invite me [here](https://discord.com/api/oauth2/authorize?client_id=711937599975063584&permissions=8&scope=bot)!
+Please invite me [here](https://discord.com/oauth2/authorize?client_id=779628592052305942&permissions=8&scope=bot)!
 
-[點擊這裏](https://github.com/RealKoolisw/DraconianJSBot/blob/main/assets/README-cn.md)閱讀Discord機器人中文教程 :)
 ## Our Bot Features:
-Draconian Discord Bot offers:
+Friska Naila Discord Bot offers:
 * :battery: 24/7 Full Uptime with high stability
 * :smiley: Easy to use
 * ⚙ Per-Server Settings
@@ -43,15 +27,6 @@ We have more than 80 commands in this bot, and they are **featured** and having 
 * :musical_note: **Music:** `play`, `loop`, `skip`, `stop`, `jumpto`, `volume`, and **4 more!**
 * :lock: **Moderation:** `ban`, `kick`, `warn`, `mute`, `createchannel`, `createemoji`, and **9 more!**
 * :electric_plug: **Utility:** `weather`, `aes256`, `embed`, `enlarge`, and **4 more!**
-
-## Screenshots and Examples
-You can see those command examples and screenshots [here](https://github.com/RealKoolisw/DraconianJSBot/tree/main/assets)
-
-## Issue/Suggestions
-If met any issues, go [here](https://github.com/RealKoolisw/Draconian/issues) to report bug and create new issue for supporting
-
-## Github Repository
-Draconian Made by Koolisw, project [Here](https://github.com/RealKoolisw/Draconian)
 
 ## Self-Hosting & Development
 Requirement:
