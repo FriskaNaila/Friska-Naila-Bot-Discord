@@ -19,7 +19,7 @@ module.exports.run = async (client, message, args) => { // eslint-disable-line n
 module.exports.help = {
     name: "aes256",
     description: "This command is used for encrypting your text data with AES256 encryption",
-    usage: "d!aes256",
+    usage: "/aes256",
     accessableby: "Member",
 		    aliases: []
 }

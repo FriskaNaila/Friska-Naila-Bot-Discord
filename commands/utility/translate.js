@@ -173,7 +173,7 @@ module.exports.run = (client, message, [args, ...words]) => {
 module.exports.help = {
     name: "translate",
     description: "This command is used for translating stuff. Example: d!translate zh-en 你好, response: hello here",
-    usage: "d!translate <language>-<to-translate-language> <text>",
+    usage: "/translate <language>-<to-translate-language> <text>",
     accessableby: "Member",
     aliases: []
 }

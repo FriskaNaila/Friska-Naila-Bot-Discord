@@ -10,7 +10,7 @@ exports.run = (client, msg, args) => {
                     .setImage(response.body.message)
                     .setColor("#00ff00")
                     .setTitle("Thigh here")
-                    .setFooter(`©2020 Draconian Workshop | This command requested by ${msg.author.username}#${msg.author.discriminator}`)
+                    .setFooter(`©2020 Friska Naila | This command requested by ${msg.author.username}#${msg.author.discriminator}`)
                               
                    msg.channel.send(emb)  
     });
@@ -22,7 +22,7 @@ exports.run = (client, msg, args) => {
 module.exports.help = {
     name: "thigh",
     description: "This command is used for generating thigh image.",
-    usage: "d!thigh",
+    usage: "/thigh",
     accessableby: "NSFW/Member",
     aliases: []
 }
