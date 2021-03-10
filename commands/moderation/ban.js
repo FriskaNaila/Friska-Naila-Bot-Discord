@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args) => {
   let kntlembed = new Discord.MessageEmbed()
     .setTitle("Command: d!ban")
     .setDescription(
-      "Wrong Usage!。\n\n**Function:** Ban a member\n**Usage:** d!ban [User] [Reason]\n**Example:** d!ban @RealKoolisw Noob"
+      "Wrong Usage!。\n\n**Function:** Ban a member\n**Usage:** /ban [User] [Reason]\n**Example:** /ban @RealKoolisw Noob"
     )
     .setColor("RED");
   if (!banTaged) {
@@ -38,12 +38,12 @@ module.exports.run = async (client, msg, args) => {
   if (msg.mentions.users.first().id === msg.author.id) return msg.channel.send(notice2).then(msg => msg.delete({ timeout: 10000 }));
   let dsfdsfsdf = new Discord.MessageEmbed()
     .setDescription(
-      `<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to you!**`
+      `Access Denied, **that member has roles higher or equal to you!**`
     )
     .setColor("RED");
   let sdfsdfsdfsd = new Discord.MessageEmbed()
     .setDescription(
-      `<:cross1:747728200691482746> Access Denied, **that member has roles higher or equal to me!**`
+      `Access Denied, **that member has roles higher or equal to me!**`
     )
     .setColor("RED");
   let botRolePossition = msg.guild.member(client.user).roles.highest.position;
@@ -54,7 +54,7 @@ module.exports.run = async (client, msg, args) => {
 
 
   let sdfdfsdfsdfdfs = new Discord.MessageEmbed()
-    .setDescription(`<:cross1:747728200691482746> **An error occurred with banned that member!**`)
+    .setDescription(`**An error occurred with banned that member!**`)
     .setColor("RED");
 
   if (reason.length < 1) reason = "No reason given.";
@@ -89,7 +89,7 @@ module.exports.run = async (client, msg, args) => {
 module.exports.help = {
     name: "ban",
     description: "This command is used for banning the members you dont like.",
-    usage: "d!ban <mentions> <reason>(optional)",
+    usage: "/ban <mentions> <reason>(optional)",
     accessableby: "Ban Members",
     aliases: []
 }

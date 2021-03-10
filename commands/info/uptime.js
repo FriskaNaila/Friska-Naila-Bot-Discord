@@ -37,7 +37,7 @@ module.exports.run = async (client, message, args) => {
 	ut_sec = (ut_sec < 10) ? "0" + ut_sec : ut_sec;
 	let derweSA = client.mapss.get('uptimedate');
 	let serveddrembed = new Discord.MessageEmbed()
-	.setDescription("<a:loading:806686528549814344> Fetching Uptime...")
+	.setDescription("Fetching Uptime...")
 	.setColor("RED")
 
 	message.channel.send(serveddrembed).then( async (message) => {
@@ -62,7 +62,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
 	name: "uptime",
 	description: "This command is used for reporting bot's uptime",
-	usage: "d!uptime",
+	usage: "/uptime",
 	accessableby: "Member",
 	aliases: []
 }
