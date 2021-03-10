@@ -22,7 +22,7 @@ module.exports.run = (client, msg, args) => {
 module.exports.help = {
     name: "pussy",
     description: "This command is used for calling NSFW images API to send them, but NSFW channel needed.",
-    usage: "d!pussy <mention>",
+    usage: "/pussy <mention>",
     accessableby: "NSFW/Members",
     aliases: []
 }

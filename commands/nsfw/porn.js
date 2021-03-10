@@ -10,7 +10,7 @@ module.exports.run = (client, msg, args) => {
                     .setImage(response.body.message)
                     .setColor("#00ff00")
                     .setTitle("Porn Gif here")
-                    .setFooter(`©2020 Draconian Workshop | This command requested by ${msg.author.username}#${msg.author.discriminator}`)
+                    .setFooter(`©2020 Friska Naila | This command requested by ${msg.author.username}#${msg.author.discriminator}`)
                               
                    msg.channel.send(emb)  
     });
@@ -22,7 +22,7 @@ module.exports.run = (client, msg, args) => {
 module.exports.help = {
     name: "porn",
     description: "This command is used for calling NSFW images API to send them, but NSFW channel needed.",
-    usage: "d!poke <mention>",
+    usage: "/poke <mention>",
     accessableby: "NSFW/Members",
     aliases: []
 }

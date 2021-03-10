@@ -12,7 +12,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
 	name: "play",
 	description: "This command is used for playing some music you like.",
-	usage: "d!play <song>",
+	usage: "/play <song>",
 	accessableby: "Members",
 	aliases: ['p']
 }
