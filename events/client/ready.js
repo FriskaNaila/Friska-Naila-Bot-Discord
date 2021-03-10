@@ -3,9 +3,9 @@ module.exports = async client => {
 	const activities = [
 		`${client.guilds.cache.size} Servers`,
 		`${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users`,
-		`By 酷斯Koolisw`
+		`By Friska Naila`
 	];
 
 	let i = 0;
-	setInterval(() => client.user.setActivity(`d!help | ${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 15000);
+	setInterval(() => client.user.setActivity(`d!help | ${activities[i++ % activities.length]}`, { type: 'STREAMING' }), 15000);
 };

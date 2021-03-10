@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
            .addField("Wet Rate", ` ${current.humidity}%`, true)
            .addField("Week", `${current.day}`, true)
            .addField("Date", `${current.date}`, true)
-           .setFooter(`©2020 Draconian Workshop | Requested by ${message.author.username}#${message.author.discriminator}`)
+           .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`)
            
            //Display when it's called
            message.channel.send(embed)
@@ -43,7 +43,7 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: "weather",
     description: "Check the weather in your location or area within newest climate/weather status",
-    usage: "d!weather <location/area>",
+    usage: "/weather <location/area>",
     accessableby: "Members",
     aliases: []
 }
