@@ -18,7 +18,7 @@ exports.run = (client, message, args) => {
       user.setNickname(newname)
   } catch(e) {
       let embed = new Discord.MessageEmbed()
-            .setDescription("<:cross1:747728200691482746> **Failed to set user's nickname!**")
+            .setDescription("<:cro**Failed to set user's nickname!**")
       message.channel.send(embed3)
   }
     let embed = new Discord.MessageEmbed()
