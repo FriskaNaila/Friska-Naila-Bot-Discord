@@ -6,7 +6,7 @@ const config = require("../../config.json");
 module.exports.run = async (client, msg, args) => {
   let notice3 = new Discord.MessageEmbed()
     .setDescription(
-      `<:cross1:747728200691482746> **I don't have permission to ban people!**`
+      `**I don't have permission to ban people!**`
     )
     .setColor("RED");
   if (!msg.guild.member(client.user).hasPermission("BAN_MEMBERS"))
@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args) => {
   let kntlembed = new Discord.MessageEmbed()
     .setTitle("Command: d!ban")
     .setDescription(
-      "Wrong Usage!。\n\n**Function:** Ban a member\n**Usage:** /ban [User] [Reason]\n**Example:** /ban @RealKoolisw Noob"
+      "Wrong Usage!。\n\n**Function:** Ban a member\n**Usage:** /ban [User] [Reason]\n**Example:** /ban @Frsika Naila Noob"
     )
     .setColor("RED");
   if (!banTaged) {
@@ -33,7 +33,7 @@ module.exports.run = async (client, msg, args) => {
     return msg.channel.send(kntlembed).then(msg => msg.delete({ timeout: 10000 }));
   }
   let notice2 = new Discord.MessageEmbed()
-    .setDescription(`<:cross1:747728200691482746> **You cannot ban yourself!**`)
+    .setDescription(`**You cannot ban yourself!**`)
     .setColor("RED");
   if (msg.mentions.users.first().id === msg.author.id) return msg.channel.send(notice2).then(msg => msg.delete({ timeout: 10000 }));
   let dsfdsfsdf = new Discord.MessageEmbed()

@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
 			.setTitle("DraconianBot Help & Commands list")
 			.setColor("GREEN")
 			.setDescription(
-				"**prefix** `d!`\nMore Info please visit: [Here](https://discord.com/api/oauth2/authorize?client_id=779628592052305942&permissions=8&scope=bot) and invite me to your server.\n**Important reminder:** Follows to Discord official Terms of Service, we will no longer saving your data for a long term, if your server keep not using our bot for **2** months, we will delete all data from our bot databases, all data will be kept in default. **If wanted to delete all data from your server in our bot database**, just kick the bot and it will be removed automaticly\n\nTo get more info about a command send d!!help <command name>\n\`\`\`/help kick\`\`\`"
+				"**prefix** `/`\nMore Info please visit: [Here](https://discord.com/api/oauth2/authorize?client_id=779628592052305942&permissions=8&scope=bot) and invite me to your server.\n**Important reminder:** Follows to Discord official Terms of Service, we will no longer saving your data for a long term, if your server keep not using our bot for **2** months, we will delete all data from our bot databases, all data will be kept in default. **If wanted to delete all data from your server in our bot database**, just kick the bot and it will be removed automaticly\n\nTo get more info about a command send d!!help <command name>\n\`\`\`/help kick\`\`\`"
 			)
 			.addField("**📱Basic**", "`help`, `ping`, `uptime`")
 			.addField(
