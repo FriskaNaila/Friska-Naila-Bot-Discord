@@ -1,6 +1,5 @@
 # Friska Naila Discord Bot
-
-Draconian Discord bot is an epic multi-purpose bot, which is very powerful and contains rich functions below.\
+Friska Naila Discord bot is an epic multi-purpose bot, which is very powerful and contains rich functions below.\
 Please invite me [here](https://discord.com/oauth2/authorize?client_id=779628592052305942&permissions=8&scope=bot)!
 
 ## Our Bot Features:
